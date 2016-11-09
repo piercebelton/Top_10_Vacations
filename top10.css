@@ -1,0 +1,58 @@
+
+
+.container{
+  text-align: center;
+  align-content: center;
+  padding: 15px;
+
+}
+
+th{
+  border-right: 1px solid;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  font-family: cursive;
+}
+
+#noline{
+  border-right: transparent;
+}
+
+h3{
+  color: red;
+  font-family: cursive;
+  position: relative;
+  top: 120px;
+  z-index: +1;
+  left: 100px;
+}
+
+body {
+  background-image: url("https://www.nysportsday.com/nysd30/wp-content/uploads/Turner_Field_2013.jpg");
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  padding-top: -30px;
+  background-size: cover;
+}
+#lineUp {
+  opacity: 0.98;
+  height: 57%;
+  width: relative;
+  position: relative;
+  right: 300px;
+}
+
+.text{
+  position: relative;
+  bottom: 425px;
+  right: 360px;
+  font-size: 15px;
+  line-height: 27px;
+  color: red;
+}
